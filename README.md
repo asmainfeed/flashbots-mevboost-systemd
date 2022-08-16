@@ -27,7 +27,7 @@ sudo useradd --no-create-home --shell /bin/false mevb
 ```
 4. Create **mevb-goerli.service** systemd service
 ```zsh
-sudo cat << EOF > /etc/systemd/system/mevb-goerli.service
+sudo tee /etc/systemd/system/mevb-goerli.service > /dev/null <<EOF
 [Unit]
 Description=MEV-Boost Goerli Test
 After=network.target
