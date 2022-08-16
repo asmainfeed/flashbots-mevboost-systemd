@@ -20,6 +20,9 @@ gobrew use 1.18@latest
 2. Install flashbots/mev-boost
 ```zsh
 go install github.com/flashbots/mev-boost@latest
+
+# sym link mev-boost to /usr/local/bin
+cd /usr/local/bin && sudo ln -s ~/go/bin/mev-boost .
 ```
 3. Create mevb user
 ```zsh
