@@ -13,6 +13,9 @@ echo 'export PATH=${PATH}:`go env GOPATH`/bin' >> ~/.bashrc
 
 # set go version
 gobrew use 1.18@latest
+
+# reload .bashrc
+. ~/.bashrc
 ```
 2. Install flashbots/mev-boost
 ```zsh
