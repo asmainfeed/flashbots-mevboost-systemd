@@ -11,11 +11,12 @@ echo 'export PATH="$HOME/.gobrew/current/bin:$HOME/.gobrew/bin:$PATH"' >> ~/.bas
 # add go packages to path
 echo 'export PATH=${PATH}:`go env GOPATH`/bin' >> ~/.bashrc
 
+# reload .bashrc
+. ~/.bashrc
+
 # set go version
 gobrew use 1.18@latest
 
-# reload .bashrc
-. ~/.bashrc
 ```
 2. Install flashbots/mev-boost
 ```zsh
