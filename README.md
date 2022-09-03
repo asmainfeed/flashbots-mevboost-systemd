@@ -1,4 +1,4 @@
-[Setup](#Setup) - [Updating mev-boost](#Updating-mev-boost) - [Uninstall](#Uninstall )
+[Setup](#Setup) - [Updating mev-boost](#Updating-mev-boost) - [Uninstall](#Uninstall ) - [CL Client Config Resources](#Consensus-Layer-Client-Config-Resources)
 
 ### Note
 - This does not cover Consensus Client configurations necessary to use mev-boost as a builder
@@ -149,3 +149,7 @@ vim $HOME/.bashrc
 # source your .bashrc
 . $HOME/.bashrc
 ```
+
+### Consensus Layer Client Config Resources
+
+- https://lighthouse-book.sigmaprime.io/builders.html
