@@ -139,7 +139,7 @@ rm -rf $HOME/go
 ```zsh
 sudo rm /usr/local/bin/mev-boost
 ```
-7. Remove gobrew entires from $HOME/.bashrc
+7. Remove gobrew entries from $HOME/.bashrc
 ```zsh
 vim $HOME/.bashrc
 # remove these lines from the bottom of .bashrc
