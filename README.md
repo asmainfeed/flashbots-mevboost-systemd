@@ -152,4 +152,7 @@ vim $HOME/.bashrc
 
 ### Consensus Layer Client Config Resources
 
-- https://lighthouse-book.sigmaprime.io/builders.html
+- [lighthouse](https://lighthouse-book.sigmaprime.io/builders.html)
+- [teku](https://docs.teku.consensys.net/en/latest/HowTo/Builder-Network/)
+- [prysm](https://docs.prylabs.network/docs/prysm-usage/parameters#validator-configuration)
+- [nimbus](https://nimbus.guide/external-block-builder.html)
