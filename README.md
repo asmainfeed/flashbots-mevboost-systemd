@@ -38,7 +38,7 @@ sudo useradd --no-create-home --shell /bin/false mevb
 ```zsh
 sudo mkdir /etc/mev-boost
 ```
-5. Create relay-config.env environment variables
+5. Create relay-config.env environment variables in relay config directory (/etc/mev-boost)
 ```zsh
 sudo tee /etc/mev-boost/relay-config.env > /dev/null <<EOF
 BLOXROUTE_ETHICAL="https://0xad0a8bb54565c2211cee576363f3a347089d2f07cf72679d16911d740262694cadb62d7fd7483f27afd714ca0f1b9118@bloxroute.ethical.blxrbdn.com"
