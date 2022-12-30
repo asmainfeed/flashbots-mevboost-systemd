@@ -72,7 +72,7 @@ Type=simple
 Restart=always
 RestartSec=5
 EnvironmentFile=/etc/mev-boost/relay-config.env
-ExecStart=mev-boost -mainnet -relay-check -relays \${BLOXROUTE_ETHICAL},\${FLASHBOTS}
+ExecStart=mev-boost -mainnet -relay-check -relays \${FLASHBOTS},\${BLOXROUTE_ETHICAL},\${BLOXROUTE_MAXPROFIT},\${BLOCKNATIVE},\${EDEN},\${MANIFOLD},\${ULTRASOUND},\${AGNOSTIC}
 
 [Install]
 WantedBy=default.target
